@@ -196,4 +196,62 @@
 /* /Es12 Animazione */
 
 /* Es13 Animazione */
+.ex-13-button:hover .ex-13-top-white {
+  animation: complete_rotation_top 2s linear;
+}
+@keyframes complete_rotation_top {
+  0% {
+    left: 10%;
+    top: -10px;
+  }
+  30% {
+    left: calc(100% - 30px);
+    top: -10px;
+  }
+  45% {
+    left: calc(100% - 30px);
+    top: calc(100% - 10px);
+  }
+  75% {
+    left: -30px;
+    top: calc(100% - 10px);
+  }
+  90% {
+    left: -30px;
+    top: -10px;
+  }
+  100% {
+    left: 10%;
+    top: -10px;
+  }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: complete_rotation_bottom 2s linear;
+}
+@keyframes complete_rotation_bottom {
+  0% {
+    right: 20%;
+    bottom: -10px;
+  }
+  30% {
+    right: calc(100% - 30px);
+    bottom: -10px;
+  }
+  45% {
+    right: calc(100% - 30px);
+    bottom: calc(100% - 10px);
+  }
+  75% {
+    right: -30px;
+    bottom: calc(100% - 10px);
+  }
+  90% {
+    right: -30px;
+    bottom: -10px;
+  }
+  100% {
+    right: 20%;
+    bottom: -10px;
+  }
+}
 /* /Es13 Animazione */
